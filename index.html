@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+          'sm': '640px',
+          // => @media (min-width: 640px) { ... }
+    
+          'md': '768px',
+          // => @media (min-width: 768px) { ... }
+    
+          'lg': '1024px',
+          // => @media (min-width: 1024px) { ... }
+    
+          'xl': '1280px',
+          // => @media (min-width: 1280px) { ... }
+    
+          '2xl': '1536px',
+          // => @media (min-width: 1536px) { ... }
+        }
+            
+              
+            }
+          }
+  </script>
+
+    <title>code</title>
+</head>
+<body>
+    <div>
+        <div class= "w-full h-[1100px] md:h-[1050px] lg:h-[720px] bg-gray-600 gap-2 text-white ">
+
+<!-- nav1 -->
+<nav class=" xl:px-20 h-20 ml-20 flex items-center gap-10 xl:justify-center">
+<div class="gap-2 flex"><img src="./10032.png" class="h-8 w-8" alt="">
+<h4 class="text-white h-7 text-lg">Visual Studio Code</h4></div>
+<ul class="text-white flex items-center gap-7 hidden xl:flex">
+    
+    <li>Docs</li>
+    <li>Update</li>
+    <li>Blog</li>
+    <li>API</li>
+    <li>Extensions</li>
+    <li>FAQ</li>
+    <li>Learn</li>
+
+</ul>
+<div class="flex px-10  justify-between hidden xl:flex">
+<button class="h-[75px] w-[150px] bg-gray-500 text-white flex gap-2 items-center px-3">
+    <i class="fa-solid fa-magnifying-glass"></i>Search Docs</button>
+    <button class="h-15 w-[150px] bg-blue-700 text-white flex items-center px-5">Download
+        <i class="fa-solid fa-download"></i>
+    </button>
+</div>
+
+<div class=" h-full py-1 px-3 ml-20 hover:bg-blue-500 xl:hidden flex items-center">
+    <i class="fa-solid fa-bars cursor-pointer ml-15 px-3 py-1 text-xl rounded-md " ></i>
+</div>
+</nav>
+<p class="bg-gray-900 h-10 flex items-center justify-center text-white text-xs xl:text-sm lg:md">
+    <a class="text-blue-300 underline mr-1">Version 1.87</a> is now available! Read about the new features and fixes from February.</p>
+       
+<section class="flex flex-col xl:flex-row justify-center w-full items-center gap-6  "> 
+   
+    <!-- left -->
+    <div class="  flex flex-col items-center  gap-4">
+        <div class="flex flex-col items-center">
+            <h1 class="text-white text-6xl font-roboto font-light">code editing</h1>
+            <h1 class="text-6xl font-semibold ">
+                Redifined.
+            </h1>
+        </div>
+        <h5 class="h-105 text-gray-300">
+            Free Built on open source.Runs everywhere
+        </h5>
+        <div class="h-full flex item-center gap-1">
+            <button class="bg-blue-700 text-white   px-6 py-2">Download for Windows
+           <h6 class="built-type">
+            Stable Build
+            <button class="link-button bg-blue-700  px-4 py-4" ><i class="fa-solid fa-chevron-down text-white"></i></button> 
+           </h6>
+           
+        </button>
+        </div> 
+        <div class=" flex flex-col items-center l-5  h-105 gap-5">
+            <button class="rounded-xl bg-gray-700 h-10">
+                <a class="text-blue-500 mr-1 ml-1">Web,Insiders Edition</a>or
+                <a class="text-blue-500 mr-1"> other platforms</a>
+            </button>
+            <div>
+            <h3 class="text-sm ">By using VS code,you agree to its</h3> 
+            <a class="text-blue-500"><h5 class="text-sm px-3">license and privacy statement</h5></a>
+        </div>
+        </div>
+        </div>
+
+    <div>
+        <img src="./10031.png" class="ml-6 h-[550px] w-[90%]" alt="">
+    </div>
+</section></div>
+
+<!-- icons -->
+<div class="max-w-5xl mx-auto py-6  bg-white h-45 w-full grid grid-cols-2 lg:grid-cols-4 ">
+<div class="flex flex-col items-center">
+    <img src="./10027.svg"  class="">
+    <p class="text-xl mt-2  w-[150px] text-gray-700">Intellisense</p>
+</div>
+<div class="flex flex-col items-center">
+    <img src="./10030.svg"  class="">
+    <p class="text-xl mt-2  w-[200px] text-gray-700">Run and Debug</p>
+</div>
+
+
+<div class="flex flex-col items-center">
+    <img src="./10028.svg"  class="">
+    <p class="text-xl  w-[200px] mt-2 text-gray-700">Built-in Git</p>
+</div>
+
+<div class="flex flex-col items-center">
+    <img src="./10029.svg"  class="">
+    <p class="text-xl  w-[200px] mt-2 text-gray-700">Extensions</p>
+</div>
+</div>
+
+<!---------------Section 1 -------------->
+
+<!-- left -->
+<div class="bg-gray-100 w-full h-30 flex justify-center items-center gap-10  flex-col lg:flex-row">
+<div class="mt-10">
+    <img src="./10005.svg" alt="" class="py-20">
+</div>
+
+<!-- right -->
+<div class="py-3 flex flex-col gap-4 -mt-10  ml-10 "> 
+    <p class="text-4xl ">Meet IntelliSense.</p>
+    <p class=" py-10">Go beyond syntax highlighting and autocomplete with IntelliSense, which
+        <br> provides smart completions based on variable types, function definitions, and
+        <br> imported modules.</p>
+</div>
+</div>
+
+<!-----------------Section 2-------------->
+
+<!-- left -->
+<div class="bg-white  flex justify-center items-center h-30 w-full  gap-8  flex-col-reverse lg:flex-row">
+   <div class="px-10 mt-6">
+    <p class="text-4xl px-5 ">Print statement debugging is a thing of the past.</p>
+    <p class="py-10 px-5">Debug code right from the editor. Launch or attach to your running apps and
+        <br> debug with break points, call stacks, and an interactive console.</p>
+    </div>
+
+<!-- right -->
+<div class="mt-10 -ml-20">
+    <img src="./greenbox.svg" alt="">
+</div>
+</div>
+
+<!-----------------Section 3-------------->
+
+<!-- left -->
+<div class="bg-gray-100 w-full h-30 flex justify-center items-center gap-14 flex-col lg:flex-row">
+  
+    <div class="mt-6 ">
+        <img src="./10007.svg"  alt="">
+
+<!-- right -->
+    </div>  <div class="px-12">
+        <p class="text-4xl px-5">Git commands built-in</p>
+        <p class="py-10 px-5">Working with Git and other SCM providers has never been easie. Review diffs,
+            <br> stage files, and make commits right from the editor. Push and pull from any
+            <br> hosted SCM service.</p>
+    </div>
+</div>
+
+
+<!----------------------Section-4------------------>
+
+<!-- left -->
+<div class="bg-white  flex justify-center items-center  h-30  w-full gap-13  flex-col-reverse lg:flex-row">
+<div class="px-12 mt-6 ">
+    <p class="text-4xl ml-6 py-2">Extensible and customizable.</p>
+    <p class="py-8 px-5">Want even more features? Install extensions to add new languages, themes, 
+        <br>debuggers, and to connect to additional services. Extensions run in separate
+        <br> processes, ensuring they won't slow down your editor. <a class="text-blue-500  hover:underline">Learn more about 
+            <br>extensions.</a></p>
+</div>
+
+<!-- right -->
+<div class="pt-5">
+    <img src="./10008.png" alt="" class="h-[200px] ">
+</div>
+</div>
+
+<!------------------------Section-5-------------->
+
+<!-- left -->
+<div class="bg-gray-100 w-full h-35 flex justify-center items-center gap-12  flex-col lg:flex-row pt-16">
+    <div class="mt-8">
+        <img src="./10008.svg" alt="">
+    </div>
+
+    <!-- right -->
+    <div class="px-12">
+        <p class="text-4xl">Deploy with confidence and ease</p>
+        <p class="py-8 px-5">With <a class="text-blue-500 hover:underline"> Microsoft Azure</a> you can deploy and host your React, Angular, Vue, Node,<br> Python (and more!) sites, store and query relational and document based data,<br> and scale with serverless computing, all with ease,<a class="text-blue-500 hover:underline">all from within VS Code.</a> </p>
+    </div>
+</div>
+<div class="py-10 flex justify-center ">
+    <h2 class="text-3xl">VS code for</h2>
+</div>
+
+<!--------------------------------Icons -------------------->
+<div class="h-[500px] lg:h-[350px]  ">
+    <div class=" px-28 flex justify-center grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+   <div class="flex">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHXqR95ccJwsyJ5sIHaV6ssw-SRESiUROYDQ&usqp=CAU" class="h-6 w-6" alt="">
+    <h6>javasript</h6>
+</div>
+<div class="flex ">
+    <img src="./python.svg" class="h-8 w-8" alt="">
+    <h6>python</h6>
+</div>
+<div class="flex ">
+    <img src="./java.svg"  class="w-6 h-6">
+    <h6>java</h6>
+</div>
+<div class="flex ">
+    <img src="./markdown.svg"  class="w-8 h-8">
+    <h6>markdown</h6>
+</div>
+<div class="flex ">
+    <img src="./typescript.svg" class="h-8 w-8 " alt="">
+    <h6>TypeScript</h6>
+</div>
+<div class="flex">
+    <img src="./c++.svg" class="h-6 w-6" alt="">
+    <h6>C/C++</h6>
+</div>
+    <div class="flex ">
+        <img src="./json.svg" class="h-6 w-6" alt="">
+        <h6>JSON</h6>
+    </div>
+    <div class="flex ">
+        <img src="./powershell.svg" class="h-6 w-6" alt="">
+        <h6>Powershell</h6>
+    </div>
+    <div class="flex ">
+<img src="./html.svg" class="h-6 w-6 " alt="">
+<h6>HTML/CSS</h6>    
+</div>
+<div class="flex ">
+    <img src="./c++.svg" class="h-6 w-6" alt="">
+    <h6>C#</h6>    
+    </div>
+    <div class="flex ">
+        <img src="./php.svg" class="h-6 w-6" alt="">
+        <h6>PHP</h6>    
+        </div>
+        <div class="flex">
+            <i class="fa-solid fa-exclamation fa-rotate-by flex gap-2 mt-1 " style="color: #B197FC; --fa-rotate-angle: 15deg;" ></i>
+            <h6>YAML!</h6>    
+            </div>
+</div>
+<div>
+<a class=" text-lg text-blue-600 flex justify-center hover:underline py-10 ">and many more languages in the marketplace...</a></div>
+
+<div class="flex justify-center gap-2 py-10">
+    <button class="text-white bg-blue-600 text-lg font-semibold w-40 h-14 active:bg-blue-300">Get Started Now</button>
+</div>
+</div>
+
+
+<div class="lg:h-[600px]  flex flex-col lg:flex-row justify-center  bg-gray-100 py-10 gap-10" >
+
+ <!-- ---------------- Windows------------- -->
+    <div class="py-4  flex flex-col items-center">
+        <div class="lg:ml-15">
+    <img src="./windows.png" class="h-[100px] w-[100px] ml-10  l"  alt=""></div>
+<div class="py-7 flex items-center"><button class="text-white  text-lg
+    bg-blue-600 h-[65px] w-[250px] "><i class="fa-solid fa-download"></i>Windows
+    <h6 class=" text-sm">
+        windows 10,11 </h6></button> </div>
+        
+            <div class="flex gap-8 ">
+                <h5 class="font-semibold ">User Installer</h5>  
+                <div class="gap-4">
+                    <button class="bg-blue-600 text-white rounded-lg h- w-8 text-sm ">x64</button>
+                <button class="bg-blue-600 text-white rounded-lg h-5 w-12 text-sm ">Arm64</button>
+                </div>
+            </div>
+            <div class="flex gap-4 py-1">
+                <h5 class="font-semibold">System Installer</h5>
+                <div class="flex gap-2">
+                    <button class="bg-blue-600 text-white rounded-lg h-5 w-8 text-sm ">x64</button>
+                    <button class="bg-blue-600 text-white rounded-lg h-5 w-12 text-sm ">Arm64</button></div>
+            </div>
+            <div class="flex gap-14 py-1">
+                <div><h5 class="font-semibold">.zip</h5></div>
+               <div class=" flex gap-2 ml-12">
+                 <button class="bg-blue-600 text-white rounded-lg h-5 w-8 text-sm ">x64</button>
+                <button class="bg-blue-600 text-white rounded-lg h-5 w-12 text-sm ">Arm64</button></div>
+            </div>
+            <div class="flex gap-14 py-4">
+                <h5 class="font-semibold">CLI</h5>
+               <div class="flex gap-2 ml-12">
+                 <button class="bg-blue-600 text-white rounded-lg h-5 w-8 text-sm ">x64</button>
+                <button class="bg-blue-600 text-white rounded-lg h-5 w-12 text-sm ">Arm64</button></div></div>
+       
+</div>
+
+<!----------------Penguin-------------->
+<div class="py-4 flex flex-col items-center">
+    <img src="./10028.png"  class="h-[130px] w-[130px] ml-10" alt="">
+    <div class="flex items-center gap-1">
+        <button class="text-white  text-lg  bg-blue-600 h-[65px] w-[130px] ">
+            <i class="fa-solid fa-download"></i>dev
+            <h6 class="text-sm">debian,ubuntu </h6>
+        </button>
+        <button  class="text-white  text-lg  bg-blue-600 h-[65px] w-[130px] "> <i class="fa-solid fa-download"></i>.rpm
+        <h6 class="text-sm">redhat,fedora,suse</h6></button>
+    </div>
+    <div class="py-4">
+        <div class="flex gap-2 py-1 justify-center items-center">
+            <h5 class="font-semibold">.deb</h5>
+            <div class="flex gap-2">
+                <button class="bg-blue-600 text-white text-sm rounded-lg h-5 w-8">x64</button>
+                <button class="bg-blue-600 text-white text-sm  rounded-lg h-5 w-8">x64</button>
+                <button class="bg-blue-600 text-white text-sm  rounded-lg h-5 w-12">Arm64</button></div>
+    </div>
+    <div class="flex gap-2 py-1 justify-center items-center">
+        <h5 class="font-semibold">.rpm</h5>
+        <div class="flex gap-2">
+            <button class="bg-blue-600 text-white text-sm rounded-lg h-5 w-8">x64</button>
+            <button class="bg-blue-600 text-white text-sm  rounded-lg h-5 w-8">x64</button>
+            <button class="bg-blue-600 text-white text-sm  rounded-lg h-5 w-12">Arm64</button></div>
+</div>
+<div class="flex gap-2 py-1 justify-center items-center">
+    <h5 class="font-semibold">.tar.gz</h5>
+    <div class="flex gap-2">
+        <button class="bg-blue-600 text-white text-sm rounded-lg h-5 w-8">x64</button>
+        <button class="bg-blue-600 text-white text-sm  rounded-lg h-5 w-8">x64</button>
+        <button class="bg-blue-600 text-white text-sm  rounded-lg h-5 w-12">Arm64</button></div>
+</div>
+<div class="flex gap-2 py-1 absolute-center px-12">
+    <h5 class="font-semibold">snap</h5>
+    <div class="flex gap-2"> 
+        <button class="bg-blue-600 text-white text-sm rounded-lg h-5 w-20">snap store</button></div>
+</div>
+
+<div class="flex gap-2 justify-center items-center py-2">
+    <h5 class="font-semibold ">CLI</h5>
+   <div class="flex gap-2 ">
+     <button class="bg-blue-600 text-white text-sm  rounded-lg h-5 w-8 text-sm ">x64</button>
+    <button class="bg-blue-600 text-white text-sm  rounded-lg h-5 w-12 text-sm ">Arm64</button>
+    <button class="bg-blue-600 text-white text-sm  rounded-lg h-5 w-12">Arm64</button>
+</div></div>
+
+</div>
+</div>
+
+<!---------------APPLE -------------- -->
+<div class=" py-4 flex flex-col items-center">
+   <div> <img src="./kisspng-apple-logo-apple-logo-5b259420255648.392567811529189408153.png" class="h-[125px] w-[120px] ml-14" alt=""></div>
+    <div class="gap-2">
+        <button class="text-white  text-lg bg-blue-600 h-[65px] w-[280px] "><i class="fa-solid fa-download"></i>Mac
+    <h6 class="text-sm">macOS 10,15</h6></button>
+    </div>
+    <div class="py-4 flex gap-2">
+        <h5 class="font-semibold">.zip</h5>
+        <div class="flex gap-1">
+            <button class="text-white text-sm bg-blue-600 h-5 w-20 rounded-lg">Intel chip</button>
+            <button  class="text-white text-sm bg-blue-600 h-5 w-20 rounded-lg">Apple silicon</button>
+            <button class="text-white text-sm bg-blue-600 h-5 w-20 rounded-lg">Universal</button>
+        </div>
+    </div>
+    <div class="flex gap-2">
+        <h5 class="font-semibold">CLI</h5>
+        <div class="flex gap-1">
+            <button class="text-white text-sm bg-blue-600 h-5 w-20 rounded-lg">Intel chip</button>
+            <button  class="text-white text-sm bg-blue-600 h-5 w-20 rounded-lg">Apple silicon</button> </div>
+    </div>
+</div>
+
+</div>
+
+
+<div class="bg-gray-100 h-[200px] ">
+    <div class="flex justify-center justify-around flex-col lg:flex-row lg:gap-80 ml-20">
+
+     <div class="flex flex-col gap-4">
+            <h5 class="font-semibold text-2xl">Want new features sooner?</h5>
+        <h6 class="py-2 text-lg">Get the <a class="text-blue-600 hover:underline">Insiders build</a> instead.</h6>
+        
+            
+        </div>
+        <div class="flex flex-col gap-3">
+        <h5 class="font-semibold text-2xl">Use <a class="text-blue-600 hover:underline">vscode.dev</a> for quick edits <br> online!</h5>
+        <h6 class="py-2 text-lg">GitHub, Azure Repos, and local files.</h6>
+    </div>
+</div>
+</div>
+
+<!----------------License---------------->
+    <div class="bg-gray-100 flex flex-col items-center pt-10 px-20 lg:px-0 h-[500px] lg:h-[250px] gap-2">
+     <div class="flex justify-center py-3">
+        <h5 class="font-semibold">License and Privacy Terms</h5>
+     </div>
+    <div class="flex flex-col items-center gap-2 py-3">
+        <p>By downloading and using Visual Studio Code, you agree to the  <a class="text-blue-600 hover:underline"> license terms </a>and <a class="text-blue-600 hover:underline">privacy statement</a>. VS Code</p>
+    <p>automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not</p>
+    <p>to have this data sent please go see  <a class="text-blue-600 hover:underline">How to Disable Crash Reporting</a> to learn how to disable it. Third party </p>
+        
+</div>
+<div class="flex justify-center">
+    <p>
+        licenses for the CLI can be  <a class="text-blue-600 hover:underline">found here.</a>
+    </p>
+</div>
+</div>
+</div>
+
+<!-------------footer---------- -->
+<footer class="text-sm md:text-md bg-gray-900 h-[200px] lg:h-[100px] w-full lg:px-52 flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-0 lg:justify-between" >
+   
+    <!----------Left----- -->
+    <div class="flex ">
+   <div class="flex text-white gap-10">
+  <p>Hello from Seattle</p>
+  <p> Follow @code</p>
+<div class="gap-1 flex">
+<div class="flex bg-white text-black gap-1 rounded-sm">
+    <button ><i class="fa-brands fa-github"></i>star</button>  </div>
+    <div class="flex bg-white text-black gap-2 rounded-sm" >
+        <button>157,516</button>
+    </div>
+</div>
+   </div>
+
+</div>
+
+<!-------right-------- -->
+<div class="flex gap-6">
+<div class="flex ">
+    <ul class="text-white flex gap-4 text-sm items-center">
+        <li> support</li>
+        <li>privacy</li>
+        <li>Terms of Use</li>
+        <li>License</li>
+    </ul>
+</div>
+<div>
+    <img src="./microsoft.png" class="h-6 w-15 text-white ">
+
+    <p class="text-white text-sm flex gap-2 hover:text-blue-600"> @ 2024 Microsoft </p>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
